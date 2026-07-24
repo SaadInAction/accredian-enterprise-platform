@@ -48,31 +48,9 @@ Tools:
 
 ## Project Structure
 
-The project is divided into pages and reusable components
-app/
-├── page.tsx
-├── layout.tsx
-├── globals.css
-└── api/
-└── contact/
+The project is divided into pages and reusable components to keep the code clean, organized, and easy to maintain. Each major section of the website, such as the Navbar, Hero, Track Record, Clients, Accredian Edge, CAT Framework, Testimonials, FAQ, Contact Form, and Footer, is implemented as a separate component. This approach made it easier to develop, test, and update individual sections without affecting the rest of the application. The overall structure also improves code reusability and makes future enhancements or feature additions much easier.
 
-components/
-├── Navbar.tsx
-├── Hero.tsx
-├── TrackRecord.tsx
-├── Stats.tsx
-├── Clients.tsx
-├── AccredianEdge.tsx
-├── CATFramework.tsx
-├── Testimonials.tsx
-├── FAQ.tsx
-├── Contact.tsx
-├── ContactModal.tsx
-└── Footer.tsx
-
-public/
-└── images and logos
-
+At the end we have the
 package.json
 README.md
 
