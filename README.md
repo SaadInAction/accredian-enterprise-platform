@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Accredian Enterprise Learning Platform
 
-## Getting Started
+## Overview
 
-First, run the development server:
+Accredian Enterprise Learning Platform is a responsive web application designed to showcase enterprise training solutions, professional learning programs, and workforce development services.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The project focuses on creating a modern enterprise landing page experience with a clean UI, smooth navigation, reusable components, and an enquiry management system.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+- Responsive enterprise landing page
+- Modern navigation menu
+- Hero section with call-to-action
+- Enterprise learning solutions showcase
+- Track record section
+- Partner and client showcase
+- Accredian Edge section
+- CAT Framework approach
+- Customized learning solutions
+- Course segmentation
+- Industry-focused training sections
+- Partner testimonials
+- Frequently Asked Questions
+- Enquiry form with API integration
+- Mobile and desktop responsive design
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technology Stack
 
-## Deploy on Vercel
+Frontend:
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Backend:
+- Next.js API Routes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Tools:
+- Git
+- GitHub
+- Vercel
+
+
+
+## Project Structure
+accredian-enterprise-platform
+
+app/
+├── page.tsx
+├── layout.tsx
+├── globals.css
+└── api/
+└── contact/
+
+components/
+├── Navbar.tsx
+├── Hero.tsx
+├── TrackRecord.tsx
+├── Stats.tsx
+├── Clients.tsx
+├── AccredianEdge.tsx
+├── CATFramework.tsx
+├── Testimonials.tsx
+├── FAQ.tsx
+├── Contact.tsx
+├── ContactModal.tsx
+└── Footer.tsx
+
+public/
+└── images and logos
+
+package.json
+README.md
+
+Each component handles a specific section of the website. This structure helped me develop and update sections independently while keeping the application organized.
