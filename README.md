@@ -47,8 +47,8 @@ Tools:
 
 
 ## Project Structure
-accredian-enterprise-platform
 
+The project is divided into pages and reusable components
 app/
 ├── page.tsx
 ├── layout.tsx
